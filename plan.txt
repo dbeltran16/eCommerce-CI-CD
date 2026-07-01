@@ -1,0 +1,24 @@
+ecommerce-cicd/
+│
+├── src/
+│   ├── components/
+│   │      ProductCard.jsx
+│   │      Cart.jsx
+│   │      Navbar.jsx
+│   │
+│   ├── tests/
+│   │      ProductCard.test.jsx
+│   │      Navbar.test.jsx
+│   │      Cart.integration.test.jsx
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── .github/
+│     └── workflows/
+│            main.yml
+│
+├── README.md
+├── package.json
+├── jest.config.js
+└── vercel.json

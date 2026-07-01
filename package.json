@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "npm --prefix ./ecommerce-cicd run dev",
+    "build": "npm --prefix ./ecommerce-cicd run build",
+    "test": "npm --prefix ./ecommerce-cicd run test",
+    "preview": "npm --prefix ./ecommerce-cicd run preview"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "@vitest/coverage-v8": "^4.1.9",
+    "jest": "^30.4.2",
+    "jsdom": "^29.1.1",
+    "vitest": "^4.1.9"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.18.1"
+  }
+}
