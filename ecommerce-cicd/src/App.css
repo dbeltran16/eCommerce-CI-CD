@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #1e3a8a;
+  background-color: #401d6e;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -48,7 +48,7 @@
 }
 
 .product-card button:hover {
-  background: #2563eb;
+  background: #7795d8;
 }
 .cart {
   background: white;
