@@ -3,10 +3,14 @@ Module Project CICD React E Commerce/
 |-- .github/
 |   `-- workflows/
 |       `-- main.yml
+|-- .gitignore
+|-- .vercel/
 |
 |-- ecommerce-cicd/
+|   |-- .gitignore
 |   |-- eslint.config.js
 |   |-- index.html
+|   |-- package-lock.json
 |   |-- package.json
 |   |-- README.md
 |   |-- vite.config.js
@@ -18,6 +22,7 @@ Module Project CICD React E Commerce/
 |   `-- src/
 |       |-- App.css
 |       |-- App.jsx
+|       |-- ReadMe.md
 |       |-- index.css
 |       |-- main.jsx
 |       |-- setupTests.js
