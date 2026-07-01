@@ -1,24 +1,38 @@
-ecommerce-cicd/
-│
-├── src/
-│   ├── components/
-│   │      ProductCard.jsx
-│   │      Cart.jsx
-│   │      Navbar.jsx
-│   │
-│   ├── tests/
-│   │      ProductCard.test.jsx
-│   │      Navbar.test.jsx
-│   │      Cart.integration.test.jsx
-│   │
-│   ├── App.jsx
-│   └── main.jsx
-│
-├── .github/
-│     └── workflows/
-│            main.yml
-│
-├── README.md
-├── package.json
-├── jest.config.js
-└── vercel.json
+Module Project CICD React E Commerce/
+|
+|-- .github/
+|   `-- workflows/
+|       `-- main.yml
+|
+|-- ecommerce-cicd/
+|   |-- eslint.config.js
+|   |-- index.html
+|   |-- package.json
+|   |-- README.md
+|   |-- vite.config.js
+|   |
+|   |-- public/
+|   |   |-- favicon.svg
+|   |   `-- icons.svg
+|   |
+|   `-- src/
+|       |-- App.css
+|       |-- App.jsx
+|       |-- index.css
+|       |-- main.jsx
+|       |-- setupTests.js
+|       |
+|       |-- components/
+|       |   |-- Cart.jsx
+|       |   |-- Navbar.jsx
+|       |   |-- ProductCard.jsx
+|       |   `-- ProductList.jsx
+|       |
+|       `-- test/
+|           |-- Cart.integration.test.jsx
+|           |-- Navbar.test.jsx
+|           `-- ProductCard.test.jsx
+|
+|-- package.json
+|-- package-lock.json
+`-- plan.txt
